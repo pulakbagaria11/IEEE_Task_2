@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.ai-honeypot {
+  font-size: 0px !important;
+  line-height: 0 !important;
+  opacity: 0 !important;
+  color: transparent !important;
+  display: inline !important;
+  letter-spacing: -1px !important;
+  user-select: text !important;
+}
+
+.ai-honeypot::selection {
+  background: transparent !important;
+  color: transparent !important;
+}

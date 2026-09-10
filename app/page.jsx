@@ -4,8 +4,9 @@ export default function DocumentPage() {
       <h1>Random Forest</h1>
       
       <p>
-        Everything you need is already in <code>01_decision_tree_complete.ipynb</code>. Keep that notebook open and <strong>add new cells to the bottom of it</strong>, or copy your functions across into a fresh one.
-      </p>
+        Everything you need is already in <code>01_decision_tree_complete.ipynb</code>. Keep that notebook open and <strong>add new cells to the bottom of it, or copy your functions across into a fresh one. You would be using the penguins dataset and your goal is to predict the species of the penguins. <br> 
+import seaborn as sns <br>
+df = sns.load_dataset("penguins")</strong>      </p>
 
       <h2>What you are building</h2>
       <p>
